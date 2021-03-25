@@ -23,7 +23,7 @@
         <p class="info__total-infections">{{ totalInfections }} infections</p>
       </div>
     </div>
-    <div class="wrapper__flag">
+    <div class="wrapper__arrow">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -127,7 +127,7 @@ export default {
     }
   }
 
-  &__flag {
+  &__arrow {
     height: 25px;
     width: 25px;
     margin-right: 10px;
@@ -142,7 +142,7 @@ export default {
     background-color: aliceblue;
     cursor: pointer;
 
-    .wrapper__flag {
+    .wrapper__arrow {
       margin-right: 5px;
     }
   }
