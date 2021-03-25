@@ -3,7 +3,7 @@ import { action } from '@storybook/addon-actions';
 import NavigationItem from './NavigationItem.vue';
 
 export default {
-  title: 'components/NavigationItem',
+  title: 'components/Navigation/NavigationItem',
   component: NavigationItem,
   argTypes: {
     onClick: action('onClick'),

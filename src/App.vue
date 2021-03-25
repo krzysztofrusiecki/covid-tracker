@@ -24,11 +24,11 @@ export default {
           updated,
         } = value.All;
         data.value.push({
-          country: key,
+          name: key,
           totalInfections: confirmed,
           totalRecovered: recovered,
           totalDeaths: deaths,
-          countryCode: abbreviation,
+          code: abbreviation,
           lastUpdated: updated,
         });
       });

@@ -80,11 +80,13 @@ export default {
 .wrapper {
   height: 50px;
   width: 100%;
+  margin-bottom: 3px;
   padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 4px;
+  border: none;
   transition: 0.2s linear;
 
   &__container {
