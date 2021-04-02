@@ -79,10 +79,11 @@ export default {
     justify-content: space-between;
 
     .title {
-      margin: 0;
+      margin: 0 0 8px;
       padding: 0;
       color: #616161;
       font-weight: 500;
+      font-size: 16px;
     }
   }
 }
